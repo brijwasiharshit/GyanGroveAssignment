@@ -13,7 +13,7 @@ const UpcCard = ({ data }) => {
         <div className='relative m-6 border border-[#B0BABF] w-96'>
             <div className="overflow-hidden">
                 <img className='w-full h-full object-cover rounded-lg' src={thumbnailUrl} alt={<ShimmerImg />} />
-                <label className='absolute bottom-14 left-[15px] bg-black  text-white p-2 text-center w-11/12 rounded-lg  rounded-t-none'>
+                <label className='absolute bottom-14 left-[14px] bg-black  text-white p-2 text-center w-11/12 rounded-lg  rounded-t-none mr-5'>
                     {useDateFormat(data.date)}
                 </label>
             </div>
